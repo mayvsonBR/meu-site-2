@@ -1,0 +1,79 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+header {
+     background-color: blue ;
+     color: white;
+}
+
+nav ul{
+    list-style-type: nome;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+     display: inline;
+     margin-right: 10 px;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     padding: 5px;
+     background-color: black ;
+}
+
+section {
+    border: 1px solid blue ;
+    margin-bottom: 20px;
+
+}
+
+section h2 {
+       margin-top: 0%;
+}
+
+section a {
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: blue;
+   text-decoration: none;
+   color: aliceblue;
+   
+
+}
+
+section a:hover {
+    background-color: blue;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+footer {
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+  margin-left: 200px;
+  margin-top: 0;
+  margin: 0;
+  width: 100px;
+  display: flex;
+
+}
+
+.insta {
+    width: 30px;
+}
